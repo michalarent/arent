@@ -10,11 +10,11 @@ const roboto = Roboto({
 });
 
 const metro = localFont({
-  src: [{ path: "../public/fonts/mabry/Mabry Pro.otf" }],
+  src: [{ path: "../public/fonts/main/content.otf" }],
 });
 
 const fk = localFont({
-  src: [{ path: "../public/fonts/mabry/FKDisplay-Regular.ttf" }],
+  src: [{ path: "../public/fonts/main/display.ttf" }],
 });
 
 export default function App({ Component, pageProps }: AppProps) {
