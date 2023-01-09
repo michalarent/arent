@@ -10,7 +10,7 @@ module.exports = {
         sans: ['var(--fk-font)'],
         hero: ['var(--roboto-font)'],
         serif: ['var(--roboto-font)',],
-        mono: 'Mono-12',
+        mono: 'var(--mono-font)',
       }
     },
   },

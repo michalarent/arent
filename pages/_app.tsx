@@ -17,6 +17,10 @@ const fk = localFont({
   src: [{ path: "../public/fonts/main/display.ttf" }],
 });
 
+const mono = localFont({
+  src: [{ path: "../public/fonts/mono/rel12.otf" }],
+});
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -25,6 +29,7 @@ export default function App({ Component, pageProps }: AppProps) {
           :root {
             --roboto-font: ${metro.style.fontFamily};
             --fk-font: ${fk.style.fontFamily};
+            --mono-font: ${mono.style.fontFamily};
           }
         `}
       </style>
