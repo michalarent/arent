@@ -39,10 +39,16 @@ export default function Home() {
               delay={100}
               description={
                 <>
-                  Full-stack engineer with 3 years of commercial experience with
-                  a strong foundation in technologies such as React, Next.js,
-                  Ethers.js, Solidity, Typescript, and Node.js. I&apos;m
-                  currently working on two projects in the Web3 space.
+                  I am a full-stack engineer with 3 years of commercial
+                  experience in web development, specializing in technologies
+                  such as React, Next.js, Ethers.js, Solidity, Typescript, and
+                  Node.js. I am currently working on two projects in the Web3
+                  space. <br />
+                  Proactive with product ideas and opinions and highly
+                  interested in the business, user behavior and data of the
+                  products I am working on. I am always looking for new
+                  opportunities to learn and grow in this field, and I would be
+                  happy to work with you!
                 </>
               }
             />

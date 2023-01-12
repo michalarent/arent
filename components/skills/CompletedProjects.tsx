@@ -16,7 +16,7 @@ export default function CompletedProjects() {
   return (
     <Section
       title="Current Web3 Projects"
-      description={`One of my proudest achievements is being a core member of the team that developed a successful DEX-aggregator and charting platform. To date, this platform has been used over 1.2 million times, which is a testament to the hard work and dedication of our team.`}
+      description={`One of my proudest achievements is being a core member of the team that developed a successful DEX-aggregator and charting platform. To date, this platform has been used over 1.4 million times, which is a testament to the hard work and dedication of our team.`}
       delay={500}
       titleDelay={600}
     >
