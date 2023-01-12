@@ -28,11 +28,11 @@ export default function Home() {
         <div className="absolute pointer-events-none w-full invert h-full left-0 top-0">
           <BackgroundGrid />
         </div>
-        <div className=" xl:h-screen xl:p-12 2xl:p-20 !pb-8 xl:sticky top-0">
+        <div className=" xl:h-screen overflow-x-hidden xl:p-12 2xl:p-20 !pb-8 xl:sticky top-0">
           <Header />
         </div>
         <AnimatePresence mode="wait">
-          <div className="mt-8 xl:pl-4 xl:pr-28 p-2 overflow-x-hidden xl:mt-[40px] 2xl:mt-[70px] pb-12">
+          <div className="mt-8 xl:pl-4 xl:pr-28 p-0 overflow-x-hidden xl:mt-[40px] 2xl:mt-[70px] pb-12">
             <Section
               title="About"
               titleDelay={400}

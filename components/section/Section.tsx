@@ -36,11 +36,11 @@ export default function Section({
           once: true,
         }}
         transition={{ delay: titleDelay / 1000, type: "just" }}
-        className=" text-neutral-400 text-base 2xl:text-lg font-extralight mt-2 pr-12"
+        className=" text-neutral-400 text-base 2xl:text-lg font-extralight mt-2 lg:pr-12"
       >
         {description}
       </motion.p>
-      <div>{children}</div>
+      <div className="px-1">{children}</div>
     </div>
   );
 }
