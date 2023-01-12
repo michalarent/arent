@@ -11,7 +11,7 @@ export default function Hero() {
         defaultValue="M"
         wrapper="div"
         cursor={false}
-        className=" text-5xl h-[48px] sm:h-auto 2xl:text-7xl"
+        className=" text-5xl min-h-[48px] sm:h-auto 2xl:text-7xl"
       />
       <TypeAnimation
         sequence={[

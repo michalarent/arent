@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
-      <main className=" xl:grid grid-cols-2 p-8 xl:p-0">
+      <main className=" xl:grid grid-cols-2 p-2 lg:p-8 xl:p-0">
         <div className="absolute pointer-events-none w-full invert h-full left-0 top-0">
           <BackgroundGrid />
         </div>
@@ -32,7 +32,7 @@ export default function Home() {
           <Header />
         </div>
         <AnimatePresence mode="wait">
-          <div className="mt-8 xl:pl-4 xl:pr-28 p-0 overflow-x-hidden xl:mt-[40px] 2xl:mt-[70px] pb-12">
+          <div className="mt-0 xl:pl-4 xl:pr-28 p-0 overflow-x-hidden xl:mt-[40px] 2xl:mt-[70px] pb-12">
             <Section
               title="About"
               titleDelay={400}
